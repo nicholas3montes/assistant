@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Brasil",
+    "populacao": 174500000,
+    "estados": 26,
+    "pib": 595600000000
+  },
+  {
+    "nome": "Estados Unidos",
+    "populacao": 281421906,
+    "estados": 50,
+    "pib": 10290000000000
+  },
+  {
+    "nome": "China",
+    "populacao": 1276270000,
+    "estados": 23,
+    "pib": 1209000000000
+  }
+]

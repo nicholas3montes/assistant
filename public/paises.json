@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Brasil",
+    "population": 174500000,
+    "amount_of_states": 26,
+    "year": 2000
+  },
+  {
+    "name": "Estados Unidos",
+    "population": 281421906,
+    "amount_of_states": 50,
+    "year": 2000
+  },
+  {
+    "name": "China",
+    "population": 1276270000,
+    "amount_of_states": 23,
+    "year": 2000
+  }
+]
