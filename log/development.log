@@ -4735,3 +4735,80 @@ Processing by InputsController#index as HTML
 Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2023-07-01 19:17:15 -0300
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by InputsController#index as HTML
+  Rendering inputs/index.html.erb
+  Rendered inputs/index.html.erb (2.6ms)
+Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-07-01 19:17:17 -0300
+Processing by InputsController#index as HTML
+  Rendering inputs/index.html.erb
+  Rendered inputs/index.html.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/8" for ::1 at 2023-07-01 19:17:20 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/8"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (6.3.0) lib/puma/configuration.rb:270:in `call'
+puma (6.3.0) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.3.0) lib/puma/thread_pool.rb:344:in `with_force_shutdown'
+puma (6.3.0) lib/puma/request.rb:99:in `handle_request'
+puma (6.3.0) lib/puma/server.rb:443:in `process_client'
+puma (6.3.0) lib/puma/server.rb:245:in `block in run'
+puma (6.3.0) lib/puma/thread_pool.rb:151:in `block in spawn_thread'
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.3ms)
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_nicholas__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb__2771198151508174184_46966045210160 at /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.8ms)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nicholas/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.4ms)
+Started GET "/" for ::1 at 2023-07-01 19:17:25 -0300
+Processing by InputsController#index as HTML
+  Rendering inputs/index.html.erb
+  Rendered inputs/index.html.erb (0.7ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
